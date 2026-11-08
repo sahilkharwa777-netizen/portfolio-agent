@@ -1,0 +1,126 @@
+{
+  "passed": 9,
+  "total": 10,
+  "results": [
+    {
+      "id": 1,
+      "type": "text2sql",
+      "difficulty": "easy",
+      "question": "How many portfolios do we have in total?",
+      "passed": true,
+      "message": "",
+      "tool": "sql_query",
+      "result_correct": true,
+      "answer_correct": true,
+      "seconds": 2.44
+    },
+    {
+      "id": 2,
+      "type": "text2sql",
+      "difficulty": "easy",
+      "question": "What are the names of all active portfolios?",
+      "passed": true,
+      "message": "",
+      "tool": "sql_query",
+      "result_correct": true,
+      "answer_correct": true,
+      "seconds": 1.23
+    },
+    {
+      "id": 3,
+      "type": "text2sql",
+      "difficulty": "easy",
+      "question": "Which securities are in the Technology sector?",
+      "passed": true,
+      "message": "",
+      "tool": "sql_query",
+      "result_correct": true,
+      "answer_correct": true,
+      "seconds": 1.81
+    },
+    {
+      "id": 4,
+      "type": "text2sql",
+      "difficulty": "medium",
+      "question": "What is the total Assets Under Management (AUM) for portfolios with high target risk level?",
+      "passed": true,
+      "message": "",
+      "tool": "sql_query",
+      "result_correct": true,
+      "answer_correct": true,
+      "seconds": 5.67
+    },
+    {
+      "id": 5,
+      "type": "text2sql",
+      "difficulty": "medium",
+      "question": "Show me the top 5 holdings by cost basis in the Growth Equity Fund",
+      "passed": true,
+      "message": "",
+      "tool": "sql_query",
+      "result_correct": true,
+      "answer_correct": true,
+      "seconds": 1.53
+    },
+    {
+      "id": 6,
+      "type": "text2sql",
+      "difficulty": "medium",
+      "question": "What is the average current price of securities in each sector?",
+      "passed": true,
+      "message": "",
+      "tool": "sql_query",
+      "result_correct": true,
+      "answer_correct": true,
+      "seconds": 6.91
+    },
+    {
+      "id": 7,
+      "type": "text2sql",
+      "difficulty": "hard",
+      "question": "For each portfolio, show the total value of Technology sector holdings and what percentage it represents of the total portfolio value",
+      "passed": true,
+      "message": "",
+      "tool": "sql_query",
+      "result_correct": true,
+      "answer_correct": true,
+      "seconds": 2.06
+    },
+    {
+      "id": 8,
+      "type": "text2sql",
+      "difficulty": "hard",
+      "question": "Find portfolios that have holdings in more than 5 different sectors and show their diversification metrics",
+      "passed": false,
+      "message": "values differ\n      truth: [('Total Stock Market Index Fund', 6, 12, 0.5)]\n      agent: [('Total Stock Market Index Fund', 6, 12, 2.0)]\n      sql:   SELECT p.portfolio_name, COUNT(DISTINCT s.sector_id) as sector_count, COUNT(h.holding_id) as holding_count, ROUND(CAST(COUNT(h.holding_id) AS REAL) / COUNT(DISTINCT s.sector_id), 2) as holdings_per_sector FROM portfolios p JOIN holdings h ON p.portfolio_id = h.portfolio_id JOIN securities s ON h.security_id = s.security_id GROUP BY p.portfolio_id HAVING sector_count > 5 ORDER BY sector_count DESC",
+      "tool": "sql_query",
+      "result_correct": false,
+      "answer_correct": null,
+      "seconds": 1.91
+    },
+    {
+      "id": 9,
+      "type": "exposure_calculator",
+      "difficulty": "medium",
+      "question": "What are the sector exposures for the Tech Innovation Fund?",
+      "passed": true,
+      "message": "",
+      "tool": "exposure_calculator",
+      "result_correct": true,
+      "answer_correct": true,
+      "seconds": 1.18
+    },
+    {
+      "id": 10,
+      "type": "exposure_calculator",
+      "difficulty": "medium",
+      "question": "Calculate the sector exposure breakdown for international equity",
+      "passed": true,
+      "message": "",
+      "tool": "exposure_calculator",
+      "result_correct": true,
+      "answer_correct": true,
+      "seconds": 1.62
+    }
+  ]
+}

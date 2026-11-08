@@ -1,0 +1,157 @@
+{
+  "Balanced Portfolio": {
+    "equity_weight_pct": 36.0,
+    "exposure_pct": {
+      "Financials": 22.22,
+      "Healthcare": 16.67,
+      "Technology": 61.11
+    },
+    "portfolio_weight_pct": {
+      "Financials": 8.0,
+      "Healthcare": 6.0,
+      "Technology": 22.0
+    }
+  },
+  "Conservative Income Fund": {
+    "equity_weight_pct": 32.0,
+    "exposure_pct": {
+      "Consumer Staples": 15.62,
+      "Financials": 46.88,
+      "Healthcare": 37.5
+    },
+    "portfolio_weight_pct": {
+      "Consumer Staples": 5.0,
+      "Financials": 15.0,
+      "Healthcare": 12.0
+    }
+  },
+  "Dividend Aristocrats Fund": {
+    "equity_weight_pct": 100.0,
+    "exposure_pct": {
+      "Consumer Staples": 70.0,
+      "Healthcare": 30.0
+    },
+    "portfolio_weight_pct": {
+      "Consumer Staples": 70.0,
+      "Healthcare": 30.0
+    }
+  },
+  "ESG Sustainable Fund": {
+    "equity_weight_pct": 100.0,
+    "exposure_pct": {
+      "Consumer Staples": 35.0,
+      "Healthcare": 38.0,
+      "Technology": 27.0
+    },
+    "portfolio_weight_pct": {
+      "Consumer Staples": 35.0,
+      "Healthcare": 38.0,
+      "Technology": 27.0
+    }
+  },
+  "Emerging Markets Fund": {
+    "equity_weight_pct": 100.0,
+    "exposure_pct": {
+      "Automotive": 18.0,
+      "Consumer Discretionary": 15.0,
+      "Energy": 32.0,
+      "Technology": 35.0
+    },
+    "portfolio_weight_pct": {
+      "Automotive": 18.0,
+      "Consumer Discretionary": 15.0,
+      "Energy": 32.0,
+      "Technology": 35.0
+    }
+  },
+  "Fixed Income Plus": {
+    "equity_weight_pct": 0.0,
+    "exposure_pct": {},
+    "portfolio_weight_pct": {}
+  },
+  "Growth Equity Fund": {
+    "equity_weight_pct": 100.0,
+    "exposure_pct": {
+      "Consumer Discretionary": 7.0,
+      "Technology": 93.0
+    },
+    "portfolio_weight_pct": {
+      "Consumer Discretionary": 7.0,
+      "Technology": 93.0
+    }
+  },
+  "International Equity Fund": {
+    "equity_weight_pct": 100.0,
+    "exposure_pct": {
+      "Automotive": 15.0,
+      "Consumer Staples": 11.0,
+      "Energy": 38.0,
+      "Technology": 36.0
+    },
+    "portfolio_weight_pct": {
+      "Automotive": 15.0,
+      "Consumer Staples": 11.0,
+      "Energy": 38.0,
+      "Technology": 36.0
+    }
+  },
+  "Small Cap Value Fund": {
+    "equity_weight_pct": 100.0,
+    "exposure_pct": {
+      "Financials": 37.0,
+      "Healthcare": 63.0
+    },
+    "portfolio_weight_pct": {
+      "Financials": 37.0,
+      "Healthcare": 63.0
+    }
+  },
+  "Tech Innovation Fund": {
+    "equity_weight_pct": 100.0,
+    "exposure_pct": {
+      "Technology": 100.0
+    },
+    "portfolio_weight_pct": {
+      "Technology": 100.0
+    }
+  },
+  "Total Bond Market Index Fund": {
+    "equity_weight_pct": 0.0,
+    "exposure_pct": {},
+    "portfolio_weight_pct": {}
+  },
+  "Total International Index Fund": {
+    "equity_weight_pct": 100.0,
+    "exposure_pct": {
+      "Automotive": 9.0,
+      "Consumer Discretionary": 15.0,
+      "Energy": 27.0,
+      "Technology": 49.0
+    },
+    "portfolio_weight_pct": {
+      "Automotive": 9.0,
+      "Consumer Discretionary": 15.0,
+      "Energy": 27.0,
+      "Technology": 49.0
+    }
+  },
+  "Total Stock Market Index Fund": {
+    "equity_weight_pct": 98.0,
+    "exposure_pct": {
+      "Automotive": 6.12,
+      "Consumer Discretionary": 10.2,
+      "Consumer Staples": 4.08,
+      "Financials": 14.29,
+      "Healthcare": 16.33,
+      "Technology": 48.98
+    },
+    "portfolio_weight_pct": {
+      "Automotive": 6.0,
+      "Consumer Discretionary": 10.0,
+      "Consumer Staples": 4.0,
+      "Financials": 14.0,
+      "Healthcare": 16.0,
+      "Technology": 48.0
+    }
+  }
+}
